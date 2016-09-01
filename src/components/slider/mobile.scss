@@ -1,0 +1,11 @@
+& {
+    margin: px(36) px(36) 0;
+    padding: px(26);
+    background: $sliderBackgroundColor;
+    box-shadow: 0 0 4px $sliderShadowColor;
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}

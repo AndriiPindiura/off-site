@@ -1,0 +1,8 @@
+@import '../mobile';
+& {
+    flex-wrap: wrap;
+
+    article {
+        max-width: 49%;
+    }
+}

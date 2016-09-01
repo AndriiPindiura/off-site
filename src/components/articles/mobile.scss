@@ -1,0 +1,43 @@
+& {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // max-width: px(1856);
+    margin: px(26) px(36) 0;
+
+    article {
+        display: flex;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-end;
+        // max-width: 24%;
+        margin: px(10) 0;
+        padding: px(24);
+        background: $articlesBackgroundColor;
+        box-shadow: 0 0 4px $articlesShadowColor;
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        p {
+            margin: px(50) auto;
+            color: $infoTextColor;
+            text-indent: px(60);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: px(24);
+            text-align: justify;
+        }
+
+        a {
+            color: $linkColor;
+            font-family: Rockwell, Arial ,Courier, Georgia, serif;
+            font-size: px(24);
+
+        }
+
+    }
+
+}

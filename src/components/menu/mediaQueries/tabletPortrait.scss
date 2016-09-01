@@ -1,0 +1,28 @@
+@import '../mobile';
+& {
+    display: flex;
+    justify-content: space-between;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: initial;
+        height: 100%;
+
+        li {
+            margin: 0 px(40) 0 px(100);
+
+            a {
+                color: $menuLinkColor;
+                font-family: Rockwell, Arial ,Courier, Georgia, serif;
+                font-size: px(36);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

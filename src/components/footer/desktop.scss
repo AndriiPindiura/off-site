@@ -1,0 +1,16 @@
+& {
+    display: flex;
+    max-width: px(1856);
+    margin: px(36) auto px(50);
+    padding: px(26) 0 px(26);
+    background: $articlesBackgroundColor;
+    box-shadow: 0 0 4px $articlesShadowColor;
+
+    a {
+        margin: 0 px(15);
+        color: $linkColor;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+        font-size: px(28);
+        text-decoration: none;
+    }
+}

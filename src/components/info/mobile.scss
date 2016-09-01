@@ -1,0 +1,52 @@
+& {
+    // display: flex;
+    // justify-content: space-between;
+    margin: px(36) px(36) 0;
+    padding: px(26) 0 px(26) px(18);
+    background: $articlesBackgroundColor;
+    box-shadow: 0 0 4px $articlesShadowColor;
+
+    figure {
+        display: flex;
+        flex-wrap: wrap;
+
+        img {
+            width: px(240);
+            height: px(188);
+            margin: px(8);
+        }
+    }
+
+    div {
+        padding: px(5) px(28);
+        font-family: Rockwell, Arial ,Courier, Georgia, serif;
+
+        h2 {
+            font-size: px(36);
+            font-weight: normal;
+            text-align: center;
+        }
+
+        p {
+            margin: px(40) 0;
+            color: $textColor;
+            font-family: Rockwell, Arial ,Courier, Georgia, serif;
+            font-size: px(24);
+            line-height: px(30);
+            text-align: justify;
+            text-indent: px(50);
+        }
+
+        div {
+            display: flex;
+            justify-content: flex-end;
+            max-width: initial;
+            padding: 0;
+            
+            a {
+                color: $linkColor;
+                font-size: px(24);
+            }
+        }
+    }
+}

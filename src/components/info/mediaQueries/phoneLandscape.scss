@@ -1,0 +1,10 @@
+@import '../mobile';
+& {
+    figure {
+        // flex-wrap: nowrap;
+        img {
+            width: px(230);
+            height: px(173);
+        }
+    }
+}

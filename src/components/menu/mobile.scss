@@ -1,0 +1,115 @@
+& {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    margin: px(36) px(36) 0;
+    padding: px(25);
+    background: $menuBackgroundColor;
+    box-shadow: 0 0 4px $menuShadowColor;
+
+    nav {
+        width: px(44);
+        height: px(44);
+        background: url('../../images/menu/menu.png') no-repeat center;
+        cursor: pointer;
+    }
+
+    ul {
+        flex-direction: column;
+        width: 100%;
+
+        li {
+            margin: px(10) auto;
+
+            a {
+                color: $menuLinkColor;
+                font-family: Rockwell, Arial ,Courier, Georgia, serif;
+                font-size: px(36);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    >a {
+        // position: relative;
+        width: px(56);
+        height: px(44);
+        background: url('../../images/menu/search.png') no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    // >div {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: flex-end;
+    //     margin-right: px(24);
+
+    >div {
+        display: none;
+        flex-grow: 2;
+        justify-content: space-between;
+        align-items: center;
+        // position: absolute;
+        // top: 100%;
+        // left: 0;
+        // width: 100%;
+        // width: px(240);
+        width: 100%;
+        // height: px(50);
+        margin: px(20) auto 0;
+        padding: px(2) px(15);
+        background-color: $searchBackgroundColor;
+        border: 1px solid $searchBorderColor;
+        // box-shadow: 0 0 4px $menuShadowColor;
+
+        input {
+            width: 100%;
+            border: 0;
+            background: $searchBackgroundColor;
+            color: $menuLinkColor;
+            font-family: Rockwell, Arial ,Courier, Georgia, serif;
+            font-size: px(36);
+
+            &:focus {
+                outline: 0;
+            }
+            
+            &::-webkit-input-placeholder {
+                color: $searchPlaceholder;
+            }
+            &::-moz-placeholder {
+                color: $searchPlaceholder;
+            }/* Firefox 19+ */
+            &:-moz-placeholder {
+                color: $searchPlaceholder;
+            }/* Firefox 18- */
+            &:-ms-input-placeholder {
+                color: $searchPlaceholder;
+            }
+        }
+
+        a {
+            width: px(56);
+            height: px(44);
+            margin-left: 1px;
+            background: url('../../images/menu/search.png') no-repeat center;
+            background-size: 100%;
+            cursor: pointer;
+        }
+    }
+    
+    .search {
+        display: flex;
+        // border-top: 0;
+    }
+
+
+    // }
+}

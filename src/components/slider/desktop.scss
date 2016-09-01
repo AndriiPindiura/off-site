@@ -1,0 +1,13 @@
+& {
+    max-width: px(1856);
+    background: $sliderBackgroundColor;
+    box-shadow: 0 0 4px $sliderShadowColor;
+    margin: px(36) auto 0;
+    padding: px(26);
+
+    img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
